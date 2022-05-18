@@ -1,0 +1,13 @@
+{
+  "name": "botjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "author": "Keelth",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.2.0-dev.1632701100.79b1b20",
+    "dotenv": "^16.0.1",
+    "jsdoc": "^3.6.10"
+  }
+}
