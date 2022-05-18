@@ -12,9 +12,7 @@ module.exports = new Command({
 
         embed.setTitle("This is a teste embed")
             .setAuthor(
-                message.author.username, 
-                message.author.avatarURL({ dynamic: true}), 
-                ""
+                new EmbedAuthorData(message.author.username,"",message.author.avatarURL({ dynamic: true}))
             )
             .setDescription(
                 "this is some plain text, \nhere is a like: [this is a test link](https://www.google.com)"
